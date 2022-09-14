@@ -21,20 +21,33 @@
             <h1>Dados para Contato</h1>
             
             <div id="contato">
-                <form class="formulario" method="post">
+                <form class="formulario" method="get">
                     <h3>
                         Preencha o formulario com Ateção</h3>
+                        <br>
+                    
+                        <p>
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+                            <label for="telefone">Whatsapp</label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="Digite o Número de Telefone">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite Seu E-mail">
+                        
+                            <p>Data de nascimento <input type="date" name="nascimento" id="dt"></p>
+                            <br>
+                        
+                        
+                        
+                            <input type="submit" value="Enviar" id="formulario" >
+                            <input type="reset" value="Apagar" id="formulario">
+                            
+                    
+                        
+
+                    </p> 
                     <p>
-                        <label for="nome">Nome Completo</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
-                        <label for="telefone">Whatsapp</label>
-                        <input type="text" name="telefone" id="telefone" placeholder="Digite o Número de Telefone">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Digite Seu E-mail">
                         
-                        <p>Data de nascimento <input type="date" name="nascimento" id="dt"></p>
-                        
-                        <input type="submit" value="Enviar" id="enviar">
                     </p>
                 
                 </form>
